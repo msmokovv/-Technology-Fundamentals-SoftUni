@@ -1,0 +1,107 @@
+<html>
+    <head>
+	<meta charset="utf-8">
+	<style>
+		div{
+    display: inline-block;
+    width: 30%;
+    margin-left:2%;
+    vertical-align: top;
+	}
+
+	span{
+    font-weight: bold;
+	}
+
+	h1{
+    text-align: center;
+	}
+	</style>
+    </head>
+	
+    <body>
+		<table border-collapse="collapse">
+			<tr>
+				<td>
+    <h1>List exercise</h1>
+		<p>The lists contain at least two elements.The most common types are ordered and unordered list</p>
+					<table border="1px">
+						<tr>
+							<h3>Example</h3>
+								<ol type="1">
+									<li>Apple</li>
+										<ul style="list-style-type:circle;">
+								<li>Fruit</li>
+								<li>It's Healthy</li>
+										</ul>  
+								<li>Cucumber</li>
+										<ul style="list-style-type:circle;">
+								<li>Vegetable</li>
+								<li>The perfect salad ingredient</li>
+										</ul> 
+								<li>Bonster</li>
+										<ul style="list-style-type:circle;">
+								<li>Energy drink</li>
+								<li>Contains coffe</li>
+										</ul> 
+								</ol> 
+			<img src="D:\Ekran\javascript-fundamentals--2019\1.html_softUni\HTML-Lab-Files/pic.png" alt="Trulli" width="500" height="333">
+			<p>List icon link <a href="html_images.asp"> HERE</a></p>			
+						</tr>
+					</table>
+				</td>
+				<td>
+	<h1 bottom="0">Table exercise</h1>
+		<p>Tables is a strucured set of data made up of rows and columns</p>
+					<table bolder="1">
+					<tr>
+						<h3>Example</h3>
+							<tr>
+						<td>Programing Language</td>
+						<td>Developed by</td>
+						<td>First appeared</td>
+							</tr>
+							<tr>
+						<td>C#</td>
+						<td>Microsoft</td>
+						<td>2000</td>	
+							</tr>
+							<tr>
+						<td>Java</td>
+						<td>Oracle</td>
+						<td>1995</td>
+							</tr>
+							<tr>
+						<td>PHP</td>
+						<td>Zend Technologies</td>
+						<td>1995</td>
+							</tr>
+						</tr>
+					</table>
+					<img src="D:\Ekran\javascript-fundamentals--2019\1.html_softUni\HTML-Lab-Files/pic2.png" alt="Trulli" width="500" height="333">
+					<p>Table icon link <a href="html_images.asp"> HERE</a></p>	
+				</td>
+				<td>
+	<h1>Forms exercise</h1> 
+		<p>An HTML Form is made of one or more widgets.Those widgets can be text fields(single line or multiline),select boxes,buttons,checboxes,or radio buttons.</p>
+				<table bolder="1">
+				<tr>
+				<h3>Example</h3>
+					<form>
+					Username<input type="text" name="firstname"></br>
+					Password<input type="text" name="lastname"></br>
+					Email<input type="text" name="firstname"></br>
+					<input type="radio" name="gender" value="male"> Age
+					<input type="radio" name="gender" value="female"> Under 20
+					<input type="radio" name="gender" value="other"> 20 or more</br>
+					 <input type="submit" value="Submit">
+					</form>
+					</tr>
+				</table>
+				<img src="D:\Ekran\javascript-fundamentals--2019\1.html_softUni\HTML-Lab-Files/pic3.png" alt="Trulli" width="500" height="333">
+				<p>Form icon link <a href="html_images.asp"> HERE</a></p>	
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
