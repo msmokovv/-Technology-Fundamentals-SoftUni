@@ -1,0 +1,10 @@
+function printAndSum(first,second){
+    let sum = 0;
+    let string = '';
+    for(let i = first;i <= second;i++){
+        sum += i;
+        string += i + ' ';
+  }
+    console.log(string);
+    console.log("Sum: " + sum)
+}
